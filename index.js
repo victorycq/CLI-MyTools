@@ -66,7 +66,7 @@ if (argv.o) {
 	}
 }
 
-const output = `${destinationPath}/${fileName}${extension}`;
+const output = `${destinationPath}${fileName}${extension}`;
 
 fs.readFile(argv._[0], "utf8", (err, data) => {
 	if (err) {
@@ -78,6 +78,6 @@ fs.readFile(argv._[0], "utf8", (err, data) => {
 		if (err) {
 			throw err;
 		}
-		console.log("JSON data is saved.");
+		console.log(`File is saved in ${output}`);
 	});
 });
