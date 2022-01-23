@@ -57,7 +57,7 @@ if (argv.o) {
 	);
 	if (validaPath.test(argv.o)) {
 		fileName = path.parse(argv.o).name;
-		destinationPath = path.parse(argv.o).dir;
+		destinationPath = path.parse(argv.o).dir + "/";
 	} else {
 		console.log(
 			"Invalid argument, the directory path or file extension is not correct. Please check your command again, if you need help just run mytools -h"
