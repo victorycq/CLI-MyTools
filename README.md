@@ -3,7 +3,7 @@
 Langkah-langkah menjalankan program :
 
 1. Jalankan perintah `npm install` (Saya menggunakan package yargs untuk mengelola argument" CLI)
-2. Jalankan perintah `npm link` (Perintah ini bertujuan untuk mendaftarkan command `mytools` pada sistem yang digunakan)
+2. Jalankan perintah `npm link` (Perintah ini bertujuan untuk mendaftarkan command `mytools` pada sistem yang digunakan) [Catatan : Jika gagal melakukan npm link maka jalankan perintah `sudo npm rm --global mytools` untuk menghapus command mytools lama jika ada]
 3. Command `mytools` sudah bisa digunakan
 
 [CATATAN]
