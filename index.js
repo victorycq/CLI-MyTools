@@ -40,7 +40,7 @@ if (!validaPath.test(argv._[0])) {
 
 let extension = ".txt";
 let fileName = path.parse(argv._[0]).name;
-let destinationPath = `./converted`;
+let destinationPath = `./`;
 
 if (argv.t) {
 	if (argv.t == "text") {
